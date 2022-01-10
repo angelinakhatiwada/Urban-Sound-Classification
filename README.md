@@ -6,6 +6,8 @@
 
 [The UrbanSound8K dataset](https://urbansounddataset.weebly.com/urbansound8k.html) contains 8732 sound excerpts of urban sounds in WAV format from 10 classes: air conditioner, car horn, children playing, dog bark, drilling, enginge idling, gun shot, jackhammer, siren, and street music. 
 
+Librosa library is used for data preprocessing and feature extraction.
+
 ### Project structure
 
 #### 1. Dataset Import and Exploratory analysis
