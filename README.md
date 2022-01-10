@@ -16,7 +16,7 @@ Code is implemented using [Feature_Extraction Google colab notebook](https://git
 - Classes distribution analysis
 - Audio duration analysis
 
-**2. Feature Extraction (for an example file and entire dataset):**
+#### 2. Feature Extraction (for an example file and entire dataset):
 
 Code is implemented using [Feature_Extraction Google colab notebook](https://github.com/angelinakhatiwada/Urban-Sound-Classification/blob/main/Feature_Extraction.ipynb).
 
@@ -24,4 +24,23 @@ Code is implemented using [Feature_Extraction Google colab notebook](https://git
 - Melspectrogram, MFCCs, Chromagram (statistics): 40 x 4 x 3
 - Melspectrogram (time features): 40 x 64
 
-All the features extracted are saved as the pickle files and stored in the [data folder](https://github.com/angelinakhatiwada/Urban-Sound-Classification/tree/main/data).
+All the features extracted are saved as pickle files and stored in the [data folder](https://github.com/angelinakhatiwada/Urban-Sound-Classification/tree/main/data).
+
+#### 3. Classification models:
+
+- Feedforward Neural Network
+
+![FNN_new](https://user-images.githubusercontent.com/60095044/148851573-85afc5c8-c951-4d72-9b26-f7ff2132d374.png)
+
+- Recurrent Neural Network (LSTM)
+
+![RNN](https://user-images.githubusercontent.com/60095044/148851703-c897e6c7-956a-488d-915a-59818d1bab06.png)
+
+- Convolutional Neural Network
+
+
+
+![CNN](https://user-images.githubusercontent.com/60095044/148851733-006c1559-924e-45f8-8d3f-b989f790f908.png)
+
+**Best accuracy scores:**
+
